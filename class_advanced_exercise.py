@@ -61,5 +61,8 @@ while True:
         manager.add_employee()
     if option == 2:
         manager.display_all_employees()
+    if option == 3:
+        pass
+    
     if option ==8:
         break
