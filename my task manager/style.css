@@ -1,0 +1,38 @@
+body {
+    background-color: #b7cc5b75;  /* Light gray background */
+}
+#taskList {
+    text-align: left;
+    margin: 0 auto;
+    padding: 0;
+    width: 60%;
+}
+.container{
+width:100%;
+text-align:center;
+}
+.task {
+            /* Makes each task fit to the content width */
+        padding: 8px 15px;      /* Adds padding around text */
+        margin: 4px 0;          /* Adds space between tasks */
+        background-color: #f4f4f4;  /* Background color of the task */
+        border: 1px solid #ddd;     /* Border around the task */
+        border-radius: 4px;    /* Rounded corners */
+        font-size: 18px;       /* Font size for the task */
+        position: relative;    /* Allows the delete button to be positioned absolutely */
+    }
+.delete-btn {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            background-color: #940f01;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+.delete-btn:hover {
+    background-color: #c0392b;
+}
